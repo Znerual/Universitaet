@@ -36,11 +36,11 @@ class IntTree {
         }
         
         int countLeaves() {
-            if (this.right == null && this.left == null) return 1;
-            int lc = 0, rc = 0;
-            if (this.left != null) lc = this.left.countNodes();
-            if (this.right != null) rc =  this.right.countNodes();
-            return lc + rc;
+            int r = 0;
+            if (this.left != null) r = left.countLeaves();
+            if (this.right != null) r += right.countLeaves();
+            if (this.left == null && this.right == null) return 1+r;
+            return r;
         }
         
         int height() {
@@ -58,10 +58,13 @@ class IntTree {
         }
         
         void printInOrderUp() {
-            if (this.left.left != null) {
+            if (this.left != null) {
                 this.left.printInOrderUp();
+                System.out.println(this.elem);
+                if (this.right != null) {
+                    this.right.printInOrderUp();
+                }
             } else {
-                System.out.println(this.left.elem);
                 System.out.println(this.elem);
                 if (this.right != null) {
                     this.right.printInOrderUp();
@@ -77,11 +80,23 @@ class IntTree {
         }
     
         void printPostOrder() {
-            //TODO Implementieren Sie hier die Angabe
+            if (this.left != null) {
+                left.printPostOrder();
+            }
+            if (this.right != null) {
+                right.printPostOrder();
+            }
+            System.out.println(this.elem);
         }
     
         void printPreOrder() {
-            //TODO Implementieren Sie hier die Angabe
+            System.out.println(this.elem);
+            if (this.left != null) {
+                left.printPreOrder();
+            }
+            if (this.right != null) {
+                right.printPreOrder();
+            }
         }
     }
     
@@ -120,14 +135,22 @@ class IntTree {
     }
     
     public void printInOrderUpSub(int elem) {
-        //TODO Implementieren Sie hier die Angabe
+        Node currentNode = this.root;
+        while (currentNode.elem != elem) {
+            if (currentNode.elem > elem) {
+                currentNode = currentNode.left;
+            } else {
+                currentNode = currentNode.right;
+            }
+        }
+        currentNode.printInOrderUp();
     }
     
     public void printPostOrder(){
-        //TODO Implementieren Sie hier die Angabe
+        this.root.printPostOrder();
     }
     
     public void printPreOrder(){
-        //TODO Implementieren Sie hier die Angabe
+        this.root.printPreOrder();
     }
 }

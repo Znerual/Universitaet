@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f859384-5eb7-42ca-9d4e-b7689a1a07a6" name="Default" comment="" />
+    <list default="true" id="9f859384-5eb7-42ca-9d4e-b7689a1a07a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aufgabenblatt1" afterPath="$PROJECT_DIR$/../Aufgabenblatt1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aufgabenblatt5" afterPath="$PROJECT_DIR$/../Aufgabenblatt5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Aufgabe4/IntTree$Node.class" afterPath="$PROJECT_DIR$/out/production/Aufgabe4/IntTree$Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Aufgabe4/IntTree.class" afterPath="$PROJECT_DIR$/out/production/Aufgabe4/IntTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aufgabe4/tasks/IntTree.java" afterPath="$PROJECT_DIR$/Aufgabe4/tasks/IntTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aufgabenblatt8/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Aufgabenblatt8/.idea/workspace.xml" />
+    </list>
     <ignored path="Aufgabenblatt3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/Aufgabe1/build/" />
@@ -28,7 +37,7 @@
       <file leaf-file-name="Aufgabe4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aufgabe4/tasks/Aufgabe4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-648">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -38,9 +47,14 @@
       <file leaf-file-name="IntTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aufgabe4/tasks/IntTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="121">
+              <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+              <folding>
+                <element signature="e#4265#4266#0" expanded="true" />
+                <element signature="e#4307#4308#0" expanded="true" />
+                <element signature="e#4345#4346#0" expanded="true" />
+                <element signature="e#4386#4387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +62,8 @@
       <file leaf-file-name="Aufgabe4Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aufgabe4/tests/Aufgabe4Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,6 +91,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -121,6 +138,7 @@
     <option name="width" value="1368" />
     <option name="height" value="721" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -139,17 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aufgabenblatt1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +186,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aufgabenblatt1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +207,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Aufgabenblatt6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.116027534" />
     <property name="project.structure.side.proportion" value="0.12008977" />
@@ -197,12 +215,11 @@
     <property name="options.lastSelected" value="project.propCompiler" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="JUnit.Aufgabe4Test">
+  <component name="RunManager" selected="JUnit.Alles ueberpruefen">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -704,62 +721,65 @@
       <workItem from="1482327083802" duration="15130000" />
       <workItem from="1482611364848" duration="5791000" />
       <workItem from="1482777002471" duration="368000" />
+      <workItem from="1483371084365" duration="3900000" />
+      <workItem from="1483783375246" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 45m 49s.xml">
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 05m 14s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 06m 08s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 09m 13s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 09m 35s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 15m 59s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alles_ueberpruefen - 2017.01.07 at 11h 16m 06s.xml">
+      <configuration name="Alles ueberpruefen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Aufgabe4Test - 2017.01.02 at 17h 28m 26s.xml">
       <configuration name="Aufgabe4Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 46m 16s.xml">
+    <history-entry file="Aufgabe4Test - 2017.01.02 at 17h 39m 42s.xml">
       <configuration name="Aufgabe4Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 47m 00s.xml">
+    <history-entry file="Aufgabe4Test - 2017.01.02 at 17h 46m 00s.xml">
       <configuration name="Aufgabe4Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 47m 12s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 48m 49s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 49m 17s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 51m 38s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 22h 53m 03s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 23h 05m 35s.xml">
-      <configuration name="Aufgabe4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Aufgabe4Test - 2016.12.24 at 23h 06m 43s.xml">
+    <history-entry file="Aufgabe4Test - 2017.01.02 at 18h 20m 45s.xml">
       <configuration name="Aufgabe4Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21289000" />
+    <option name="totallyTimeSpent" value="25980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28330523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39663866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39629006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21060605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21363637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,7 +794,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28403363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1221,15 +1240,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe4/tests/Aufgabe4Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="486">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe4/tasks/Aufgabe4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-648">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1237,9 +1256,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe4/tasks/IntTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="121">
+          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#4265#4266#0" expanded="true" />
+            <element signature="e#4307#4308#0" expanded="true" />
+            <element signature="e#4345#4346#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
