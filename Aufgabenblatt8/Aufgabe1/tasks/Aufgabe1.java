@@ -97,15 +97,23 @@ public class Aufgabe1 {
         fillStringBuffer(sb, str, "z");
         if (sb.length() > 0) throw new InvalidCharException(sb.toString());
         if (str.length() > 5) {
-            Pattern pat =  Pattern.compile("\\w*\\d{1,}\\w*");
+            Pattern pat =  Pattern.compile("\\w*\\d{1,2}\\w*");
             Matcher matcher = pat.matcher(str);
             if (!matcher.matches()) throw new NoNumberException(String.valueOf(str.length()));
-            int maxCount = 0;
-            for (int i = 0; i < matcher.groupCount(); i++) {
-                if (matcher.group(i).length() > maxCount) maxCount = matcher.group(i).length();
+            boolean hadNumber = false;
+            char lastChar = 'a';
+            for (int i = 0; i < str.length(); i++) {
+                if (Character.isDigit(str.charAt(i))) {
+                    if (hadNumber == true) {
+                        if (!Character.isDigit(lastChar)) {
+                            throw new MultipleNumbersException(String.valueOf(2));
+                        }
+                    } else {
+                        hadNumber = true;
+                    }
+                }
+                lastChar = str.charAt(i);
             }
-            if (matcher.groupCount() > 1) throw new MultipleNumbersException(String.valueOf(maxCount));
-
         }
         return true;
     }
