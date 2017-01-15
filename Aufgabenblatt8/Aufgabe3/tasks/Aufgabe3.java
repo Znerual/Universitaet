@@ -1,3 +1,6 @@
+import sun.security.provider.ConfigFile;
+
+import java.util.HashMap;
 import java.util.Scanner;
 
 /*
@@ -72,6 +75,12 @@ class Spielfeld {
     public Spielfeld() {
         spieler1 = 0;
         spieler2 = 0;
+    }
+    private Spielfeld copySpielfeld() {
+        Spielfeld spielfeld = new Spielfeld();
+        spielfeld.spieler1 = this.spieler1;
+        spielfeld.spieler2 = this.spieler2;
+        return spielfeld;
     }
     public int feld(int zeile, int spalte)
     {
@@ -196,7 +205,7 @@ class Spielfeld {
         return wert1(spieler) - wert1(opponent);
     }
 
-    public int negamax(int spieler, int tiefe){
+    public int negamax(int spieler, int tiefe, HashMap<Spielfeld, Integer> memorizer){
         if(tiefe == 0){
             return wert(spieler);
         }
@@ -209,7 +218,13 @@ class Spielfeld {
                     currentMaxValue = Integer.MAX_VALUE;
                 }
                 else{
-                    currentMaxValue = -negamax(opponent,tiefe-1);
+                    if (memorizer.containsKey(this)) {
+                        currentMaxValue = memorizer.get(this);
+                    } else {
+                        currentMaxValue = -negamax(opponent,tiefe-1, memorizer);
+                        memorizer.put(this.copySpielfeld(), currentMaxValue);
+                    }
+
                 }
                 if(currentMaxValue > bestMaxValue){
                     bestMaxValue = currentMaxValue;
@@ -246,7 +261,7 @@ class Spielfeld {
                     currentMaxValue = Integer.MAX_VALUE;
                 }
                 else{
-                    currentMaxValue = -negamax(opponent,tiefe);
+                    currentMaxValue = -negamax(opponent,tiefe, new HashMap<Spielfeld, Integer>());
                 }
                 if(currentMaxValue > bestMaxValue){
                     bestMaxValue = currentMaxValue;
@@ -258,7 +273,7 @@ class Spielfeld {
         return bestIndex;
     }
     public int hashCode() {
-        return (int)((0x97e2a1430e3ab551L*this.spieler1+0xddd7aaa5a1ccca9bL*spieler2)>>32)
+        return (int)((0x97e2a1430e3ab551L*this.spieler1+0xddd7aaa5a1ccca9bL*spieler2)>>32);
     }
     public boolean equals(Object other) {
         if (!(other instanceof Spielfeld)) return false;
